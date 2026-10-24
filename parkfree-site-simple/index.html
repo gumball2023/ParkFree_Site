@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ParkFree — Project Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <header>
+      <h1>ParkFree</h1>
+      <p class="subtitle">
+        A mobile navigation prototype that shows free and time-limited street parking on Google Maps.
+      </p>
+      <p class="meta">Android / iOS · Kotlin / Swift</p>
+    </header>
+
+    <hr>
+
+    <section>
+      <h2>Project idea</h2>
+      <p>
+        Navigation apps are good at getting drivers to a destination, but finding street parking nearby
+        can still take time. ParkFree adds parking information directly to the navigation map.
+      </p>
+      <p>
+        The goal is simple: while approaching a destination, the driver can see which nearby street
+        segments may allow free or time-limited parking.
+      </p>
+    </section>
+
+    <section>
+      <h2>What it does</h2>
+      <ul>
+        <li>Shows parking street segments on Google Maps.</li>
+        <li>Searches destinations using Google Places.</li>
+        <li>Supports selecting a destination by tapping the map.</li>
+        <li>Starts real turn-by-turn Google Navigation.</li>
+        <li>Keeps parking overlays visible during navigation.</li>
+        <li>Records a parked location.</li>
+        <li>Includes an Android developer survey mode for collecting parking segments with GPS.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Android</h2>
+      <div class="gallery">
+        <figure>
+          <img src="images/android-home.jpg" alt="ParkFree Android map">
+          <figcaption>Parking segments shown on the normal map.</figcaption>
+        </figure>
+        <figure>
+          <img src="images/android-confirm.jpg" alt="ParkFree Android destination selection">
+          <figcaption>Tap a location and confirm it as the destination.</figcaption>
+        </figure>
+        <figure>
+          <img src="images/android-navigation.jpg" alt="ParkFree Android navigation">
+          <figcaption>Parking overlays remain visible during Google Navigation.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section>
+      <h2>iOS</h2>
+      <div class="gallery">
+        <figure>
+          <img src="images/ios-home.jpg" alt="ParkFree iOS map">
+          <figcaption>Parking overlays on the iOS version.</figcaption>
+        </figure>
+        <figure>
+          <img src="images/ios-confirm.jpg" alt="ParkFree iOS destination confirmation">
+          <figcaption>Map-based destination selection on iOS.</figcaption>
+        </figure>
+        <figure>
+          <img src="images/ios-navigation.jpg" alt="ParkFree iOS navigation">
+          <figcaption>Turn-by-turn navigation with parking information.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section>
+      <h2>Technical notes</h2>
+      <table>
+        <tr><th>Android</th><td>Kotlin</td></tr>
+        <tr><th>iOS</th><td>Swift</td></tr>
+        <tr><th>Map</th><td>Google Maps SDK</td></tr>
+        <tr><th>Navigation</th><td>Google Navigation SDK</td></tr>
+        <tr><th>Search</th><td>Google Places</td></tr>
+        <tr><th>Parking data</th><td>Coordinate segments stored in CSV</td></tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>Current status</h2>
+      <p>
+        The core workflow works on real Android and iOS devices. Parking coverage is still limited,
+        and the parking data is being refined and collected independently.
+      </p>
+    </section>
+
+    <footer>
+      <hr>
+      <p>ParkFree · Mobile app prototype</p>
+    </footer>
+  </main>
+</body>
+</html>
